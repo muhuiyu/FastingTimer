@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E425A86529FA955700BEF1FA /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425A86429FA955700BEF1FA /* ProgressRing.swift */; };
+		E425A86729FA998400BEF1FA /* FastingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425A86629FA998400BEF1FA /* FastingManager.swift */; };
 		E4456F2F29FA92870061AAA8 /* FastingTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4456F2E29FA92870061AAA8 /* FastingTimerApp.swift */; };
 		E4456F3129FA92870061AAA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4456F3029FA92870061AAA8 /* ContentView.swift */; };
 		E4456F3329FA92890061AAA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4456F3229FA92890061AAA8 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E425A86429FA955700BEF1FA /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
+		E425A86629FA998400BEF1FA /* FastingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingManager.swift; sourceTree = "<group>"; };
 		E4456F2B29FA92870061AAA8 /* FastingTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastingTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4456F2E29FA92870061AAA8 /* FastingTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingTimerApp.swift; sourceTree = "<group>"; };
 		E4456F3029FA92870061AAA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				E4456F2E29FA92870061AAA8 /* FastingTimerApp.swift */,
+				E425A86629FA998400BEF1FA /* FastingManager.swift */,
 				E4456F3029FA92870061AAA8 /* ContentView.swift */,
+				E425A86429FA955700BEF1FA /* ProgressRing.swift */,
 				E4456F3229FA92890061AAA8 /* Assets.xcassets */,
 				E4456F3429FA92890061AAA8 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				E4456F3129FA92870061AAA8 /* ContentView.swift in Sources */,
 				E4456F2F29FA92870061AAA8 /* FastingTimerApp.swift in Sources */,
+				E425A86729FA998400BEF1FA /* FastingManager.swift in Sources */,
+				E425A86529FA955700BEF1FA /* ProgressRing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
